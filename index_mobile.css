@@ -15,7 +15,12 @@ body {
 
 /* Header Section */
 
-.header{
+.header .logo img {
+    position: relative;
+    right: 12rem;
+}
+
+/* .header{
     width: 100vw;
     min-height: 10vh;
     display: flex;
@@ -113,7 +118,7 @@ li a:hover, .dropdown:hover .dropbtn {
     color: #FF0505; }
 
 li a:hover, .dropdown2:hover .dropbtn1 {
-        color: #FF0505; }    
+        color: #FF0505; }
 
 .dropdown1 h2{
     margin-bottom: 1rem;
@@ -143,7 +148,7 @@ li a:hover, .dropdown2:hover .dropbtn1 {
 .dropdown1 a:hover{
     color:#FF0505;
     text-decoration: underline;
-    
+
 }
 
 .dropdown3 a:hover{
@@ -165,7 +170,7 @@ li a:hover, .dropdown2:hover .dropbtn1 {
 
 .dropdown3 h2{
     margin-left: 1rem;
-    
+
 }
 
 li.dropdown2{
@@ -229,7 +234,7 @@ li.dropdown2{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    
+
 }
 
 .hero h1{
@@ -249,7 +254,7 @@ padding:0.5rem;
 border-radius: 2rem;
 color:#FF0505;
 font-size: 1.4rem;
-}
+} */
 
 /*Main Section*/
 
@@ -284,7 +289,7 @@ font-size: 1.4rem;
     align-items: center;
     justify-content:space-evenly;
     flex-wrap: wrap;
-    
+
 }
 
 .main1, .main2, a{
@@ -331,7 +336,7 @@ font-size: 1.4rem;
     background-color: #062426;
     opacity: 0.7;
     margin-left: -1rem;
-    
+
 }
 
 .convert21{

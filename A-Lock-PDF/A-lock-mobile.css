@@ -13,7 +13,7 @@ body {
 
 
 /* Header Section */
-
+/*
 .header{
     width: 100vw;
     min-height: 10vh;
@@ -114,7 +114,7 @@ li a:hover, .dropdown:hover .dropbtn {
     color: #FF0505; }
 
 li a:hover, .dropdown2:hover .dropbtn1 {
-        color: #FF0505; }    
+        color: #FF0505; }
 
 .dropdown1 h2{
     margin-bottom: 1rem;
@@ -144,7 +144,7 @@ li a:hover, .dropdown2:hover .dropbtn1 {
 .dropdown1 a:hover{
     color:#FF0505;
     text-decoration: underline;
-    
+
 }
 
 .dropdown3 a:hover{
@@ -166,7 +166,7 @@ li a:hover, .dropdown2:hover .dropbtn1 {
 
 .dropdown3 h2{
     margin-left: 1rem;
-    
+
 }
 
 li.dropdown2{
@@ -232,7 +232,7 @@ li.dropdown2{
 
 li a:hover, .menuicon:hover:hover .burg {
     color: #FF0505;
-}
+} */
 
 .d1{
     margin-left: 1rem;
@@ -242,7 +242,7 @@ li a:hover, .menuicon:hover:hover .burg {
 
 .d2{
     margin-left: 16rem;
-    margin-bottom: -6rem; 
+    margin-bottom: -6rem;
     margin-top: -6.3rem;
 }
 
@@ -298,4 +298,4 @@ input {
 .copyright p{
     font-size: 1.5rem;
     text-align: center;
-}  
+}

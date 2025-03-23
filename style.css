@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* overflow: hidden; */
 }
 
 html{
@@ -105,12 +106,23 @@ li a:hover, .dropdown:hover .dropbtn {
     color: #FF0505; }
 
 li a:hover, .dropdown2:hover .dropbtn1 {
-        color: #FF0505; }    
+        color: #FF0505; }
 
 .dropdown1 h2{
     margin-bottom: 2rem;
     font-size: 1.7rem;
-    
+
+}
+
+.header .nav-c {
+    font-size: 2.5rem;
+    color:#FF0606;
+    margin: 2rem 0.5rem;
+    display: none;
+}
+
+.no-display-nav {
+    display: none;
 }
 
 .dropdown2 h2{
@@ -141,7 +153,7 @@ li a:hover, .dropdown2:hover .dropbtn1 {
 .dropdown1 a:hover{
     color:#FF0505;
     text-decoration: underline;
-    
+
 }
 
 .dropdown3 a:hover{
@@ -163,7 +175,7 @@ li a:hover, .dropdown2:hover .dropbtn1 {
 
 .dropdown3 h2{
     margin-left: 1rem;
-    
+
 }
 
 li.dropdown2{
@@ -207,7 +219,7 @@ li.dropdown2{
 
 .d2{
     margin-left: 4rem;
-    margin-bottom: -6rem; 
+    margin-bottom: -6rem;
     margin-top: -6.4rem;
 }
 
@@ -226,7 +238,7 @@ li.dropdown2{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    
+
 }
 
 .hero h1{
@@ -279,7 +291,7 @@ font-size: 1.6rem;
     display: flex;
     align-items: center;
     justify-content:space-evenly;
-    
+
 }
 
 .main1, .main2, a{
@@ -327,7 +339,7 @@ font-size: 1.6rem;
     opacity: 0.7;
     padding-left: 1rem;
     padding-top: 1rem;
-    
+
 }
 
 .convert21{

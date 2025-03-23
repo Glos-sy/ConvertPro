@@ -10,7 +10,7 @@ html {
 
 /* Header Section */
 
-.header{
+/* .header{
     width: 100vw;
     min-height: 10vh;
     display: flex;
@@ -108,7 +108,7 @@ li a:hover, .dropdown:hover .dropbtn {
     color: #FF0505; }
 
 li a:hover, .dropdown2:hover .dropbtn1 {
-        color: #FF0505; }    
+        color: #FF0505; }
 
 .dropdown1 h2{
     margin-bottom: 1rem;
@@ -138,7 +138,7 @@ li a:hover, .dropdown2:hover .dropbtn1 {
 .dropdown1 a:hover{
     color:#FF0505;
     text-decoration: underline;
-    
+
 }
 
 .dropdown3 a:hover{
@@ -160,7 +160,7 @@ li a:hover, .dropdown2:hover .dropbtn1 {
 
 .dropdown3 h2{
     margin-left: 1rem;
-    
+
 }
 
 li.dropdown2{
@@ -204,14 +204,14 @@ li.dropdown2{
 
 .d2{
     margin-left: 4rem;
-    margin-bottom: -6rem; 
+    margin-bottom: -6rem;
     margin-top: -6.4rem;
 }
 
 .d22{
     margin-top: -15rem;
     margin-left: 12rem;
-}
+} */
 
 section #one, section #two, section #three {
     height: 55rem;

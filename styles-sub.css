@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div.navbar {
+    width: 90%;
+    margin-left: 4rem;
+}
+
+div.login {
+    width: 30%;
+}

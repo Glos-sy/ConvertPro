@@ -6,7 +6,11 @@
     <title>Convert Pro | Welcome </title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="index_tablet.css" media="(max-width:1024px)" />
-    <link rel="stylesheet" href="index_mobile.css" media="(max-width:500px)" />
+    <link rel="stylesheet" href="styles-sub.css" media="(max-width: 840px)">
+    <link rel="stylesheet" href="styles-sub-a.css" media="(max-width: 760px)">
+    <link rel="stylesheet" href="index_mobile.css" media="(max-width:550px)" />
+    <link rel="stylesheet" href="index-mobile-sub.css" media="(max-width: 430px)">
+    <link rel="stylesheet" href="index-mobile-sub-a.css" media="(max-width: 360px)">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,6 +18,14 @@
     href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
     rel="stylesheet"
   />
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  <!-- 360 -->
   </head>
   <body>
     <!-- Header Section-->
@@ -61,14 +73,19 @@
         </li>
           <li><a href="./A-Contact-Us/A-contact-us.html">Contact</a></li>
           <li><a class="pro" href="./A-Going-Pro/A-going-pro.html">GoPRO</a></li>
+          <li class="no-display-nav"><a href="/login.html">Login</a></li>
+          <li  class="no-display-nav"><a class="sign" href="./A-Create-Account/A-create-account.html">Sign up</a></li>
         </ul>
       </div>
       <div class="login">
         <ul>
-          <li><a href="/login.html">Login</a></li>
-          <li><a class="sign" href="./A-Create-Account/A-create-account.html">Sign up</a></li>
+          <li class="no-display"><a href="/login.html">Login</a></li>
+          <li class="no-display"><a class="sign" href="./A-Create-Account/A-create-account.html">Sign up</a></li>
         </ul>
       </div>
+
+      <i id="bars" class="fa-solid nav-c fa-bars"></i>
+        <i class="fa-solid nav-c fa-xmark"></i>
     </div>
 
 
@@ -207,5 +224,7 @@
            <p>Copyright &copy; 2024. All rights reserved.</p>
         </div>
     </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
